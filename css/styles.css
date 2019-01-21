@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: -webkit-linear-gradient(top right, #3643aa, #3f55b7, #4967c3, #5578cf, #638ada, #6488d4, #6485cd, #6583c7, #576dae, #495896, #3b447e, #2d3167) fixed;
+  background: -o-linear-gradient(top right, #3643aa, #3f55b7, #4967c3, #5578cf, #638ada, #6488d4, #6485cd, #6583c7, #576dae, #495896, #3b447e, #2d3167) fixed;
+  background: linear-gradient(to bottom left, #3643aa, #3f55b7, #4967c3, #5578cf, #638ada, #6488d4, #6485cd, #6583c7, #576dae, #495896, #3b447e, #2d3167) fixed;
+  font-family: "Bungee", cursive;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+canvas {
+  margin-top: -1rem;
+  padding-bottom: 4.5rem;
+}
+
+/*game title*/
+.game-hdr {
+  margin-top: -1rem;
+}
+
+.game-title {
+  font-size: 3.4rem;
+  letter-spacing: 0.03rem;
+  margin-bottom: -11.8rem;
+  text-shadow: 0.4rem 0.25rem 0.9rem rgba(0, 0, 0, 0.4);
+}
+
+.game-subtitle {
+  color: #fff;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  left: 49%;
+  letter-spacing: 0.05rem;
+  opacity: 0.9;
+  position: absolute;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  top: 4.9rem;
+}
+
+/*points, hearts*/
+.score-content {
+  word-spacing: 0.5rem
+}
+
+.score,
+.number-points {
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+  right: 8rem;
+  top: 13rem;
+}
+
+.heart-points {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.hearts-list {
+  color: #f00;
+  display: inline;
+  font-size: 1.8rem;
+  left: 10.5rem;
+  letter-spacing: 0.07rem;
+  position: relative;
+  top: 8.2rem;
+}
+
+/*gameover modal*/
+.gameover-container {
+  background: #fff;
+  border-radius: 0.5rem;
+  left: 0;
+  margin: auto;
+  padding-bottom: 2rem;
+  position: absolute;
+  right: -1rem;
+  top: 26rem;
+  width: 20rem;
+}
+
+.gameover {
+  font-size: 2rem;
+  margin-top: 0.9rem;
+}
+
+.gameover-score {
+  margin-top: -2.8rem;
+}
+
+.play-button {
+  padding-top: 0.5rem;
+}
+
+#try-again {
+  background: #f00;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7rem 0.6rem 0.6rem 0.7rem;
+  width: 7rem;
+}
+
+#try-again:hover {
+  background: #0f0;
+}
+
+#try-again,
+#try-again:hover {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#try-again:hover span {
+  display: none;
+}
+
+#try-again:hover:before {
+  color: #000;
+  content: "GO!";
+  width: 7rem;
+}
+
+.gameover,
+.gameover-score,
+#try-again {
+  letter-spacing: 0.1rem;
+}
+
+.hide-modal {
+  display: none;
+}
+
+/*footer, author*/
+.game-ftr {
+  position: relative;
+  top: 40rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  letter-spacing: 0.07rem;
+}
