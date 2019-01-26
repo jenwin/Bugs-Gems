@@ -1,18 +1,20 @@
-# Classic-Arcade-Game
+# classic-arcade-game
 
 ## How to Run
 - Clone or Download
 - Open index.html
 
-## How To Play
-- Get the highest score!
+## How to Play the Game
+- Goal: Get the highest score!
 - Move player with arrow keys.
 - Bugs move at varying speeds.
-- Colliding with bugs results in a heart loss (life) and player position resets.
-- A total of 3 hearts. No hearts left, game over, modal pops up.
-- Click Try Again/Go! to restart the game.
+- Colliding with bugs results in a heart loss (life).
+- Player position resets when player collides with bugs. 
+- Player position resets when player reaches the water.
+- A total of 3 hearts. Game over when 0 hearts.
+- A modal pops up. Click Try Again/Go! to restart the game.
 
-## Score
+## Points
 - 100 Points - Reach the water
 - 50 Points - Purple Gem
 - 10 Points - Yellow Star
