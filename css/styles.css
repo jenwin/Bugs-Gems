@@ -9,42 +9,43 @@ html {
   background: linear-gradient(to bottom left, #3643aa, #3f55b7, #4967c3, #5578cf, #638ada, #6488d4, #6485cd, #6583c7, #576dae, #495896, #3b447e, #2d3167) fixed;
   font-family: "Bungee", cursive;
   height: 100vh;
+  overflow: hidden;
+  -ms-overflow: none;
   text-align: center;
   width: 100%;
 }
 
 canvas {
   margin-top: -1rem;
-  padding-bottom: 4.5rem;
 }
 
 /*game title*/
 .game-hdr {
-  margin-top: -1rem;
+  margin-top: -3rem;
 }
 
 .game-title {
-  font-size: 3.4rem;
+  font-size: 2.5rem;
   letter-spacing: 0.03rem;
-  margin-bottom: -11.8rem;
+  margin-bottom: -11rem;
   text-shadow: 0.4rem 0.25rem 0.9rem rgba(0, 0, 0, 0.4);
 }
 
 .game-subtitle {
   color: #fff;
   font-family: "Rock Salt", cursive;
-  font-size: 1.5rem;
+  font-size: 0.95rem;
   font-weight: bold;
-  left: 49%;
+  left: 51%;
   letter-spacing: 0.05rem;
   opacity: 0.9;
   position: absolute;
   text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
-  transform: rotate(-6deg);
-  -ms-transform: rotate(-6deg);
-  -o-transform: rotate(-6deg);
-  -webkit-transform: rotate(-6deg);
-  top: 4.9rem;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  top: 2.5rem;
 }
 
 /*points, hearts*/
@@ -54,11 +55,11 @@ canvas {
 
 .score,
 .number-points {
-  font-size: 1.9rem;
+  font-size: 1.34rem;
   letter-spacing: 0.1rem;
   position: relative;
-  right: 8rem;
-  top: 13rem;
+  right: 9.5rem;
+  top: 10.5rem;
 }
 
 .heart-points {
@@ -70,11 +71,11 @@ canvas {
 .hearts-list {
   color: #f00;
   display: inline;
-  font-size: 1.8rem;
-  left: 10.5rem;
+  font-size: 1.3rem;
+  left: 11.5rem;
   letter-spacing: 0.07rem;
   position: relative;
-  top: 8.2rem;
+  top: 7.28rem;
 }
 
 /*gameover modal*/
@@ -86,7 +87,7 @@ canvas {
   padding-bottom: 2rem;
   position: absolute;
   right: -1rem;
-  top: 26rem;
+  top: 18.2rem;
   width: 20rem;
 }
 
@@ -146,10 +147,10 @@ canvas {
 /*footer, author*/
 .game-ftr {
   position: relative;
-  top: 40rem;
+  top: 39rem;
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 0.07rem;
 }
