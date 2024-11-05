@@ -1,7 +1,7 @@
-# Bugs and Gems
+# Bugs & Gems
 
 ## Description 
-Bugs and Gems is a retro-style game where you control a character using arrow keys, dodging bugs and collecting items. The goal is to score as many points as possible by reaching the water, collecting gems, and avoiding collisions. You have 3 hearts, and the game ends when you lose them all.
+Bugs & Gems is a retro-style game where you control a character using arrow keys, dodging bugs and collecting items. The goal is to score as many points as possible by reaching the water, collecting gems, and avoiding collisions. You have 3 hearts, and the game ends when you lose them all.
 
 ## Interactive Gameplay
 - **Goal:** Score as many points as possible!
