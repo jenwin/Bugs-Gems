@@ -16,12 +16,12 @@ html {
 }
 
 canvas {
-  margin-top: -1rem;
+  margin-top: 5rem;
 }
 
 /*game title*/
 .game-hdr {
-  margin-top: -3rem;
+  margin-top: 0;
 }
 
 .game-title {
@@ -45,7 +45,7 @@ canvas {
   -ms-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
-  top: 2.5rem;
+  top: 4rem;
 }
 
 /*points, hearts*/
@@ -59,7 +59,7 @@ canvas {
   letter-spacing: 0.1rem;
   position: relative;
   right: 9.5rem;
-  top: 10.5rem;
+  top: 12.5rem;
 }
 
 .heart-points {
@@ -75,7 +75,7 @@ canvas {
   left: 11.5rem;
   letter-spacing: 0.07rem;
   position: relative;
-  top: 7.28rem;
+  top: 11rem;
 }
 
 /*gameover modal*/
@@ -147,7 +147,7 @@ canvas {
 /*footer, author*/
 .game-ftr {
   position: relative;
-  top: 39rem;
+  top: 45rem;
 }
 
 .copyright {
