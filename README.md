@@ -3,6 +3,15 @@
 ## Description 
 Bugs & Gems is a retro-style game where you control a character using arrow keys, dodging bugs and collecting items. The goal is to score as many points as possible by reaching the water, collecting gems, and avoiding collisions. You have 3 hearts, and the game ends when you lose them all.
 
+## Technologies
+- HTML5
+- CSS3
+- JavaScript
+
+## Installation
+1. Clone or download the repository.
+2. Open the `index.html` file in your browser to start the game.
+
 ## Interactive Gameplay
 - **Goal:** Score as many points as possible!
 - **Controls:** Use the arrow keys to move the player character.
@@ -21,10 +30,6 @@ Bugs & Gems is a retro-style game where you control a character using arrow keys
 - **100 Points:** Reach the water.
 - **50 Points:** Collect a Purple Gem.
 - **10 Points:** Collect a Yellow Star.
-
-## Installation
-1. Clone or download the repository.
-2. Open the `index.html` file in your browser to start the game.
 
 ## License
 GNU General Public License v3.0
